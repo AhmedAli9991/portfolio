@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c93b654b.css",
+    "main.js": "/static/js/main.654c665b.js",
+    "static/media/Profile.png": "/static/media/Profile.b2c4f4e352761ad7691e.png",
+    "static/media/Expenses.png": "/static/media/Expenses.51e544059464a565ed68.png",
+    "static/media/Doctor.png": "/static/media/Doctor.2bb2ab7bda785e23adfc.png",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Blog.png": "/static/media/Blog.c188195526a06b9f8c3a.png",
+    "static/media/CVS.png": "/static/media/CVS.be9d80ddb0b928f9fb76.png",
+    "static/media/Covid.jpeg": "/static/media/Covid.007a3a59ceda1effaa45.jpeg",
+    "static/media/Version.png": "/static/media/Version.430a12b4a0343fe4ee95.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/Task.png": "/static/media/Task.fa3ebe2a18297b30411b.png",
+    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.c93b654b.css.map": "/static/css/main.c93b654b.css.map",
+    "main.654c665b.js.map": "/static/js/main.654c665b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c93b654b.css",
+    "static/js/main.654c665b.js"
+  ]
+}
