@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch,Redirect } from "react-router-dom";
 import Preloader from "../src/Components/Pre";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home/Home";
@@ -25,7 +25,7 @@ export default function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -36,6 +36,7 @@ export default function App() {
           <Route path="/skills" component={Skills} />
           <Route path="/resume" component={Resume} />
           <Route path="/contact" component={Contact} />
+          <Redirect fro="*" to="/"/>
         </Switch>
         <Footer />
       </div>
